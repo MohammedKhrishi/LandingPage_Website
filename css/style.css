@@ -1,0 +1,23 @@
+    /* start global rules */
+    
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: #adadad;
+        font-family: 'Work Sans' sans-serif;
+    }
+    
+    .container {
+        width: 1127px;
+        margin: auto;
+    }
+    
+    .header .navbar {
+        background-color: red;
+        float: left;
+        margin-left: 0;
+    }
