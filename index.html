@@ -170,7 +170,7 @@
                 <img src="../prjct-two 2022/assets/Digital-marketing-trends-2022.avif" alt="" />
                 <div class="content">
                     <h3>Encouraging competitiveness</h3>
-                    <p> P2P trading platforms offer a marketplace for prosumers to trade the renewable energy generated at a better price, encouraging the deployment of distributed generation. Similarly, P2P trading allows the consumers to have control over their electricity consumption and its price,increasing flexibility in the system. 
+                    <p> P2P trading platforms offer a marketplace for prosumers to trade the renewable energy generated at a better price, encouraging the deployment of distributed generation. Similarly, P2P trading allows the consumers to have control over their electricity consumption and its price,increasing flexibility in the system. Therefore, people can choose when and when not to supply to others. 
                     </p>
                 </div>
                 <div class="info">
@@ -228,7 +228,7 @@
             <div class="box quality" data-aos="fade-right">
                 <div class="img-holder"><img src="../prjct-two 2022/assets/mobilepayments6.jpg" alt="" /></div>
                 <h2>Efficiency</h2>
-                <p>Live in “The Cloud” P2P software comes in a few different forms</p>
+                <p>Live in “The Cloud” P2P software comes in a few different forms where you can exchange on a live stream with whoever you would like to share with.</p>
                 <a href="#">More</a>
             </div>
             <div class="box time" data-aos="fade-up">
@@ -361,8 +361,8 @@
     <div class="our-skills" id="our-skills">
         <h2 class="main-title">Our Skills</h2>
         <div class="container">
-            <img src="../prjct-two 2022/assets/work-steps.png" alt="" data-aos="fade-right"/>
-            <div class="skills" data-aos="fade-left">
+            <img src="../prjct-two 2022/assets/work-steps.png" alt="" data-aos="fade-right/>
+            <div class="skills">
                 <div class="skill">
                     <h3>Data Analytics</h3>
                     <div class="skill_progress-bar">
@@ -403,7 +403,7 @@
         <div class="container">
             <img src="../prjct-two 2022/assets/How-a-P2P-lending-company-works.jpg" alt="" class="image" data-aos="fade-right"/>
             <div class="accoridan">
-                <div class="info" data-aos="fade-left">
+                <div class="info">
                     <div class="box">
                         <div class="text">
                             <h3>TECHNICAL REQUIREMENTS <span class="fa fa-plus"></span></h3>
@@ -653,6 +653,7 @@
 
     <script>
         // SwiperJs code for images animation
+        $(document).ready(function(){
         var swiper = new Swiper('.swiper-container', {
         effect: 'coverflow',
         grabCursor: true,
@@ -668,7 +669,7 @@
         pagination: {
             el: '.swiper-pagination',
         },
-        });
+        })});
 
         // Jquery code for progress bar completion
         $('.skill_per-value').each(function(){
@@ -682,30 +683,30 @@
 
         // accordian list Jquery code
 
-        $(document).ready(function(){
-            $('.box h3').click(function(){
-                // self-clicking closing mechanism
-                if ($(this).next(".box p").hasClass("active")){
-                    $(this).next(".box p").removeClass("active").slideUp();
-                    $(this).children("span").removeClass("fa-minus").addClass("fa-plus");
-                }
-                else{
-                $('.box p').removeClass("active").slideUp();
-                $('.box h3 span').removeClass('fa-minus').addClass("fa-plus");
-                $(this).next('.box p').addClass("active").slideDown();
-                $(this).children('span').removeClass("fa-plus").addClass("fa-minus");
-                }    
-            })
-        })
+        // $(document).ready(function(){
+        //     $('.box h3').click(function(){
+        //         // self-clicking closing mechanism
+        //         if ($(this).next(".box p").hasClass("active")){
+        //             $(this).next(".box p").removeClass("active").slideUp();
+        //             $(this).children("span").removeClass("fa-minus").addClass("fa-plus");
+        //         }
+        //         else{
+        //         $('.box p').removeClass("active").slideUp();
+        //         $('.box h3 span').removeClass('fa-minus').addClass("fa-plus");
+        //         $(this).next('.box p').addClass("active").slideDown();
+        //         $(this).children('span').removeClass("fa-plus").addClass("fa-minus");
+        //         }    
+        //     })
+        // })
 
-            $('.counter_number').counterUp({
-                delay:10,
-                time:2000
-            });
-            AOS.init({
-                duration: 2000, 
-                easing:"ease-in-out",
-            });
+        $('.counter_number').counterUp({
+            delay:10,
+            time:2000
+        });
+        AOS.init({
+            duration: 2000, 
+            easing:"ease-in-out",
+        });
 
         $('.menu_toggle-btn').click(function(){
             $(this).toggleClass("fa-times");       
