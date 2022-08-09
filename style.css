@@ -966,6 +966,7 @@
     .our-skills .container {
         display: flex;
         align-items: center;
+        justify-content: space-between;
     }
     
     .our-skills img {
