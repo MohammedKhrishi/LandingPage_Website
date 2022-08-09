@@ -41,9 +41,9 @@
         --dark: #343a40;
     }
     
-    html {
+    /* html {
         scroll-behavior: smooth;
-    }
+    } */
     
     body {
         font-family: var(--font-family-sans-serif);
