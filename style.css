@@ -797,7 +797,7 @@
     }
     
     .testimonials .box {
-        padding: 20px;
+        padding: 10px;
         background-color: white;
         box-shadow: var(--main-box-shadow);
         border-radius: 7px;
@@ -1583,7 +1583,7 @@
         font-weight: bold;
         background-color: var(--orange);
         width: fit-content;
-        margin: 0 auto;
+        margin: 10px auto;
         border-radius:9px;
     
     }
